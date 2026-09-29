@@ -8,5 +8,4 @@ students = {
     "Levi": "ETF"
 }
 
-for student in students:
-    print(student)
+print("I am learning Git")
