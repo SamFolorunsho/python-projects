@@ -1,11 +1,9 @@
-students = {
-    "Flex": "Off-Camper",
-    "Demmy": "Off-Camper",
-    "Idris": "Off-Camper", 
-    "Nicholas": "Angola",
-    "AETO": "Angola",
-    "Adesh": "Awo",
-    "Levi": "ETF"
-}
+students = [
+    {"name": "Flex", "house": "Off Camper", "sport": "Football"},
+    {"name": "Demmy", "house": "Off Camper", "sport": "Football"},
+    {"name": "Oxy", "house": "Off Camper", "sport": None},
+    {"name": "Nicholas", "house": "Angola", "sport": "Basketball"}
+]
 
-print("I am learning Git")
+for student in students:
+    print(student["name"], student["sport"], student["house"], sep="--")
